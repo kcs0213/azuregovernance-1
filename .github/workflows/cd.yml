@@ -8,7 +8,7 @@ defaults:
 
 jobs:
   tfPlanProd:
-    name: Generate Plan (Prod)
+    name: Generate Plan
     runs-on: ubuntu-latest
     env:
       ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
